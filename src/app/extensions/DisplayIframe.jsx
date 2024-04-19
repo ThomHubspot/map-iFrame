@@ -9,7 +9,7 @@ hubspot.extend((
 const Extension = ({ openIframe }) => {
   const handleClick = () => {
     openIframe({
-      uri: "https://wikipedia.com/", // this is a relative link. Some links will be blocked since they don't allow iframing
+      uri: "https://www.google.com/maps/search/?api=1&{{ companyName }}", // this is a relative link. Some links will be blocked since they don't allow iframing
       height: 1000,
       width: 1000,
       title: 'Wikipedia in an Iframe'
